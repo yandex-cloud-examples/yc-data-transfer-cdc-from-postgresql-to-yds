@@ -1,5 +1,3 @@
-# Название сценария
+# Захват изменений из Yandex Managed Service for PostgreSQL и поставка в Yandex Data Streams с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете отслеживать изменения данных в кластере [Managed Service for PostgreSQL](https://cloud.yandex.ru/docs/managed-postgresql) и отправлять их в [Data Streams](https://cloud.yandex.ru/docs/data-streams). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/mpg-to-yds), необходимый для настройки конфигурационный файл [postgresql-yds.tf](postgresql-yds.tf) расположен в этом репозитории. 
