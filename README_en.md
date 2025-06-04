@@ -1,0 +1,3 @@
+# Capturing data changes from Yandex Managed Service for PostgreSQL and delivering them to Yandex Data Streams through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/en/docs/data-transfer), you can track data changes in a [Managed Service for PostgreSQL](https://yandex.cloud/en/docs/managed-postgresql) cluster and send them to [Data Streams](https://yandex.cloud/en/docs/data-streams). See [this tutorial](https://yandex.cloud/en/docs/data-transfer/tutorials/mpg-to-yds) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [postgresql-yds.tf](postgresql-yds.tf). 
